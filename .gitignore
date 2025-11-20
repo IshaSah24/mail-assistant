@@ -43,7 +43,7 @@ Frontend/node_modules/
 Frontend/dist/
 Frontend/.vite/
 Frontend/.cache/
-
+Frontend
 # Vite local storage
 vite.config.ts.timestamp*
 

@@ -1,8 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import { InferenceClient } from "@huggingface/inference"; // previously  using : HfInference
-// import axios from "axios";
+import { InferenceClient } from "@huggingface/inference"; 
 
 const TOGETHER_API_KEY = process.env.TOGETHER_API_KEY;
 const client = new InferenceClient(TOGETHER_API_KEY);

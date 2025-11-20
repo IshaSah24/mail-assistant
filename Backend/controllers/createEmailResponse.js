@@ -2,7 +2,7 @@ import { generateAiResponse } from "../utils/togetherApi.js";
 
 const createEmailResponse = async (req, res) => {
   try {
-    // runs  only  if  the button  in  triggered by the user
+    //P-NOTE : runs  only  if the button  in  triggered by the user
     const { emailContent, tone } = req.body;
     console.log("Content:", emailContent);
     console.log("Tone:", tone);
