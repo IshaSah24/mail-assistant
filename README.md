@@ -7,6 +7,9 @@ This repository contains the complete setup for the Personal AI Mail Assistant, 
 - A React Frontend (optional UI/testing)
 - A Local AI-powered Backend using Together API / HuggingFace
 
+[▶️ Watch the Demo](https://github.com/IshaSah24/mail-assistant/blob/main/demo.mp4)
+
+
 The  extention will be  published by the  end of 2025
 Called - Mail Ai Writer.
 
