@@ -1,0 +1,69 @@
+# ===========================
+# Global
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE / Editor junk
+.vscode/
+.idea/
+*.swp
+
+# ===========================
+# Node / Backend
+# ===========================
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+tmp/
+temp/
+
+# Backend specific
+Backend/node_modules/
+Backend/dist/
+Backend/.cache/
+
+# ===========================
+# Frontend (React + Vite)
+# ===========================
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+Frontend/.cache/
+
+# Vite local storage
+vite.config.ts.timestamp*
+
+# React build outputs
+Frontend/build/
+
+# ===========================
+# Chrome Extension
+# ===========================
+gmail-ai-extension/node_modules/
+gmail-ai-extension/dist/
+gmail-ai-extension/build/
+
+# Chrome Extension temp files
+gmail-ai-extension/*.pem
+gmail-ai-extension/.output/
+
+# ===========================
+# Misc
+# ===========================
+*.zip
+*.tar
+*.tar.gz
